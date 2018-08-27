@@ -1,0 +1,124 @@
+  .title1{
+    font-size: 20px;
+  }
+  .top-menu a{
+    color: #000;
+    padding-right: 10px;
+  }
+  .side-menu a{
+    color: #000;
+  }
+  .side-menu ul li{
+    list-style-type: none;
+    padding: 3px;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left:10px;
+  }
+
+  .table-bordered {
+    border: 1px solid #000;
+  }
+
+  table {
+      border-spacing: 0;
+      border-collapse: collapse;
+  }
+
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;    
+  }
+
+  th {
+    text-align: center;
+    font-weight: bold;
+    text-align: -internal-center;
+    background-color: #ddd;
+  }
+
+  td, th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+  }
+
+  .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 2px;
+  }
+
+  .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td {
+    border: 1px solid #000;
+  }
+
+  .table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000;
+  }
+
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: center;
+    border-top: 1px solid #000;
+  } 
+
+  .prog{
+    max-width: 200px;
+  }
+ 
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 0.50;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    color: #292b2c;
+    background-color: #D3D3D3;
+    border-color: #ccc;
+}
+
+.btn-secondary:hover {
+    color: #292b2c;
+    background-color: #A9A9A9;
+    border-color: #ccc;
+}
+
+.loading{
+  margin-left: 10px;
+  font-weight: bold;
+}
